@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:wght@300&family=Titillium+Web:wght@300&display=swap');
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(42, 42, 42);
 }
 
 *{
@@ -10,5 +10,29 @@ body{
 }
 
 nav{
+    font-family: 'Rubik', sans-serif;
+}
 
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 3.5rem;
+    background: transparent;
+    color: white;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 1rem;
+}
+
+.brand img{
+    height: 2rem;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
 }
