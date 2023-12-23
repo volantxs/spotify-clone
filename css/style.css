@@ -7,32 +7,24 @@ body{
 *{
     margin: 0;
     padding: 0;
+
 }
 
 nav{
     font-family: 'Rubik', sans-serif;
 }
 
-nav ul{
-    display: flex;
-    list-style-type: none;
-    height: 3.5rem;
-    background: transparent;
-    color: white;
-    align-items: center;
+:is(.spotify, .home, .search, .book )  img{
+    width: 1.5rem;
 }
 
-nav ul li{
-    padding: 0 1rem;
+
+
+aside{
+    float: left;
+    width: 30vw;
 }
 
-.brand img{
-    height: 2rem;
-    padding: 0 8px;
-}
-
-.brand{
-    display: flex;
-    align-items: center;
-    font-size: 1.5rem;
+main{
+    float: right;
 }

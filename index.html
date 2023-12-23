@@ -9,17 +9,17 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-      
+      <div>
         <aside class="small-container">
-         <section>
+         <section class="about">
             <ul>
-                <li><img src="./assets/spotify.png" alt="spotify"></li>
-                <li><img src="./assets/home.png">Home</li>    
-                <li><img src="./assets/search.png">Search</li>    
+                <li class="spotify"><img src="./assets/spotify.png" alt="spotify"></li>
+                <li class="home"><img src="./assets/home.png" >Home</li>    
+                <li class="search"><img src="./assets/search.png">Search</li>    
             </ul>
          </section>   
-         <section>
-            <span><img src="./assets/book.gif"> Your Library</span>
+         <section class="library">
+            <span class="book"><img src="./assets/book.gif"> Your Library</span>
             <p>+</p>
             <div class="inset">
                 <h1>Create your first playlist</h1>
@@ -32,7 +32,7 @@
                 <button>Browse podcasts</button>
             </div>
         </section>
-        <section>
+        <section class="footer">
             <ul>
                 <li>Legal</li>
                 <li>Privacy Center</li>
@@ -45,14 +45,64 @@
         </section>
         </aside>
         <main>
-              <nav>
-            <ul>
-                <li class = "brand" >
-                    <img src="./assets/spotify.png" alt="spotify" >Spotify</li>
-                <li>Home</li>
-                <li>About</li>
-            </ul>
+        <nav>
+            <button>&LeftArrow;</button>
+            <button>Sign up</button>
+            <button>Log in</button>
         </nav>
+        <section class="main-content">
+            <div class="recent-playlists">
+             <nav>
+                <header>Recently played</header>
+                <a>Show all</a>
+             </nav>
+             <ul>
+                <li>
+                    <img> 
+                    <h3>Sleep</h3>
+                    <p>You played 750 times</p>
+                </li>
+                <li>
+                    <img> 
+                    <h3>Sleep</h3>
+                    <p>You played 750 times</p>
+                </li>
+                <li>
+                    <img> 
+                    <h3>Sleep</h3>
+                    <p>You played 750 times</p>
+                </li>
+             </ul>
+            </div>
+            <div class="rows">
+                <nav>
+                   <header>Recently played</header>
+                   <a>Show all</a>
+                </nav>
+                <ul>
+                   <li>
+                       <img> 
+                       <h3>Sleep</h3>
+                       <p>You played 750 times</p>
+                   </li>
+                   <li>
+                       <img> 
+                       <h3>Sleep</h3>
+                       <p>You played 750 times</p>
+                   </li>
+                   <li>
+                       <img> 
+                       <h3>Sleep</h3>
+                       <p>You played 750 times</p>
+                   </li>
+                </ul>
+               </div>
+
+        </section>
+    </div>
+    <div class="player">
+
+    </div>
         </main>
         <script src="sript.js"></script>
     </body>
