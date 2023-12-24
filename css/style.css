@@ -190,10 +190,14 @@ main > nav button {
 
 .recent-playlists ul {
     display: flex;
+    width: 100%;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 50px;
+    overflow: hidden;
 }
 
-.recent-playlists ul li{
-
+.recent-playlists img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 5px;
 }
